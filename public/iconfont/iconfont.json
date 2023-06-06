@@ -1,0 +1,100 @@
+{
+  "id": "3953648",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "18336454",
+      "name": "收藏",
+      "font_class": "shoucang",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "4143529",
+      "name": "添加",
+      "font_class": "tianjia",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "6061533",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "ec7b",
+      "unicode_decimal": 60539
+    },
+    {
+      "icon_id": "13638734",
+      "name": "喜欢",
+      "font_class": "xihuan",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "26439362",
+      "name": "icon_不喜欢、心碎",
+      "font_class": "a-icon_buxihuanxinsui",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "4942642",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "351750",
+      "name": "分类",
+      "font_class": "fenlei1",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "989480",
+      "name": "暂停",
+      "font_class": "iconstop",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "7594155",
+      "name": "24gf-play",
+      "font_class": "24gf-play",
+      "unicode": "ea82",
+      "unicode_decimal": 60034
+    },
+    {
+      "icon_id": "5405551",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e731",
+      "unicode_decimal": 59185
+    },
+    {
+      "icon_id": "1212298",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "8844157",
+      "name": "向左箭头",
+      "font_class": "xiangzuojiantou",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "1901672",
+      "name": "关注",
+      "font_class": "guanzhu",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    }
+  ]
+}

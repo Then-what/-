@@ -1,24 +1,5 @@
-# minimalist-music
+# 数据是用GitHub上网易云提供的免费接口，需要将其下载至本地
+地址：https://github.com/Binaryify/NeteaseCloudMusicApi
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 网易云接口文档
+地址：https://binaryify.github.io/NeteaseCloudMusicApi/#/

@@ -1,4 +1,12 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import router from './router'
 
-createApp(App).mount('#app')
+import store from '@/store';
+import '@/assets/css/index.css'
+const app = createApp(App);
+app.use(router);
+app.use(store);
+// app.config.maxRecursiveUpdates = 100
+
+app.mount('#app')

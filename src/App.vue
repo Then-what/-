@@ -1,26 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <router-view></router-view>
+  <song-bar v-if="store.state.playSongList.isShow ? store.state.playSongList.isShow : isShow"/>
+  <TabBar v-show="!$route.meta.hideTabBar"/>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+  import TabBar from '@/components/TabBar.vue';
+  import { computed, onMounted } from 'vue';
+  import SongBar from './components/song-detail/SongBar.vue';
+  import store from './store';
+  let isShow = computed(()=>{
+    return sessionStorage.getItem('showSongBar');
+  });
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
